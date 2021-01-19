@@ -11,6 +11,9 @@
     <script>
       fetch("https://test-cancer-xx.herokuapp.com", {
         credentials: "include",
+         headers: {
+          "Content-Type": "application/json",
+        },
         "Access-Control-Allow-Origin": "https://test-cancer-xx.herokuapp.com",
       })
       // fetch("https://test-cancer-xx.herokuapp.com")
